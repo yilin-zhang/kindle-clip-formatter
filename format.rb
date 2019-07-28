@@ -78,10 +78,6 @@ class ClippingFormatter
             tag0 = tag1
           elsif tag1.nil?
             tag1 = tag0
-          elsif tag0 <= tag1
-            tag1 = tag0
-          else
-            tag0 = tag1
           end
           tags[idx_pairs[idx][0]] = tag0
           tags[idx_pairs[idx][1]] = tag1
