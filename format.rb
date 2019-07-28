@@ -2,8 +2,6 @@
 # Author: Yilin Zhang
 
 class ClippingFormatter
-  attr_reader :notes
-
   # @notebook: {book_title1 => [clip1, clip2, ...], book_title2 => ..}
   # clip: A Clipping Object
   def initialize
